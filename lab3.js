@@ -1,18 +1,4 @@
-// test score
-
-// function gradeAssg (grade) {
-//     switch
-//     case 1: grade >= 9 && grade <= 10
-//     return 'A';
-//     break;
-
-//     case 2: grade >= 8 && grade < 9
-//     return 'B';
-
-
-
-// }
-// console.log(gradeAssg(9))
+// -- assigGrade
 
 function gradeAssg(grade) {
     if (grade >= 9 && grade <= 10) {
@@ -24,10 +10,27 @@ function gradeAssg(grade) {
     } else if (grade >= 6 && grade < 7) {
         console.log('Jum D')
     } else {
-        console.log('you did not study')
+        console.log('F, needs improvements')
     }
-    //console.log(gradeAssg(8))
-    gradeAssg(8)
 }
-let car = 3
-console.log(car)
+    let finalGrade = 9.2
+    gradeAssg(finalGrade)
+
+//---
+
+function assignGrade(score) {
+    if (score >= 9 && score <= 10) {
+    console.log("A");
+    } else if (score >= 8 && score < 9) {
+    console.log("B");
+    } else if (score >= 7 && score < 8) {
+    console.log("C");
+    } else if (score >= 6 && score < 7) {
+    console.log("D");
+    } else {
+    console.log("F");
+    }
+    }
+    let grade = 8.9
+    assignGrade(grade);
+    
