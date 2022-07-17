@@ -8,16 +8,20 @@
 
 function helloWord(language) {
     if (language === "es") {
-        return "Hola mundo"
+        console.log("Hola mundo")
 
     } else if (language === "fr") {
-        return "Bonjour globe"
+        console.log("Bonjour globe")
 
     } else if (language === "it") {
-        return "Chao tutti"
+        console.log("Chao tutti")
 
     } else {
-        return"Hello Word"
+        console.log("Hello Word")
     }
 }
-helloWord("es")
+
+let lang = "fr"
+lang = "es"
+lang = "it"
+helloWord(lang)
