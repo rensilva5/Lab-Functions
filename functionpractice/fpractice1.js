@@ -7,9 +7,23 @@
 //}
 //firstp("Renzo", "Silva")
 
-function adder (mango) {
-    for (let i = 0; i < mango.length; i++)
-    console.log(mango[i]);
+// function adder (mango) {
+//     for (let i = 0; i < mango.length; i++)
+//     console.log(mango[i]);
 
+// }
+// adder(["car", "dog", "city"])
+
+// example 3
+
+function doesExist(nums, num) {
+    for (let i = 0; i < nums.length; i++){
+         if (nums[i] === num) {
+            return true;
+         }
+    }
+    return false
 }
-adder(["car", "dog", "city"])
+doesExist([1, 4, 5, 6], 4)
+
+console.log("To check")
