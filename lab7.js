@@ -15,4 +15,4 @@ function findLargest(num1, num2, num3) {
         return `${num3} is the largest`
     }
 }
-console.log(findLargest(8,10,16))
+console.log(findLargest(8, 10, 16))
