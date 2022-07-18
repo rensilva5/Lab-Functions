@@ -38,3 +38,7 @@ console.log(num) // Printing the previous num as regular number Data type
 const toText = String(num) // Converting it to text by using String(num)
 console.log(toText) // printing the new 23 in Data type text
 //console.log(num)
+
+const str = '23'   // Viseversa (from String to number)
+const toNum = Number(str)
+console.log(toNum)
