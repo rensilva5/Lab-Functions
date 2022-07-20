@@ -6,7 +6,7 @@
  - Else print "Variable is a valid number" if isNaN() returns false. */
 
  function isNumber() {
-    if ()) {
+    if () {
         
         return
 
