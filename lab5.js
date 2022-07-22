@@ -7,9 +7,9 @@
 
 function isNumber(input) {
   if (isNaN(input)) {
-    return isNaN
+    return "Variable is not a number"
+  } else {
+    return "Variable is a valid number"
   }
-  
-
 }
-console.log(isNumber(12))
+console.log(isNumber("123"))
