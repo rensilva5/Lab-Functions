@@ -5,15 +5,11 @@
  - Print "Variable is not a number" if isNaN() returns true.
  - Else print "Variable is a valid number" if isNaN() returns false. */
 
- function isNumber() {
-    if () {
-        
-        return
+function isNumber(input) {
+  if (isNaN(input)) {
+    return isNaN
+  }
+  
 
-    } else {
-
-        return
-    }
-
- }
-isNumber()
+}
+console.log(isNumber(12))

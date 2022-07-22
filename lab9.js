@@ -9,25 +9,21 @@
  - Print result of num1%num2 if operation. is "modulus"
  - Else print "Invalid operation". */
 
-// function evaNumbers (num1, num2) {
-// //(add, subtract, multiply, divide, modulus) {
-//     if ()
-
-// }
-
-
-function largesMax (arr) {
-  let maxes = []
-  for (let i = 0; i < arr.length; i++) {
-    var valmax = arr[i][0]
-    for (let j = 0; j < arr[i].length; j++) {
-      currentE = arr[i][j]
-      if (currentE >= valmax) {
-        valmax = currentE
-      }
-    }
-    maxes.push(valmax)
+function evaNumbers(assignOperator) {
+  let num1 = 4
+  let num2 = 5
+  if (assignOperator === "add") {
+    return num1 + num2
+  } else if (assignOperator === "subtract") {
+      return num1 - num2
+  } else if (assignOperator === "multiply") {
+      return num1 * num2
+  } else if (assignOperator === "divide") {
+      return num1 / num2
+  } else if (assignOperator === "modulus") {
+      return num1 % num2
+  } else {
+      return "Invalid operation"
   }
-  return maxes
 }
-console.log(largesMax([[3, 5, 4], [7, 8, 1,], [6, 2, 0]]))
+console.log(evaNumbers("yes"))
