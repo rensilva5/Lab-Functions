@@ -13,3 +13,4 @@ function isNumber(input) {
   }
 }
 console.log(isNumber("123"))
+console.log(isNumber("Hi"))

@@ -14,4 +14,5 @@ function largesMax (arr) {
     }
     return maxes
   }
-  console.log(largesMax([[3, 5, 4], [7, 8, 1,], [6, 2, 0]]))
+  let arrayLarNum = [[3, 5, 4], [7, 8, 1,], [6, 2, 0]]
+  console.log(largesMax(arrayLarNum))
